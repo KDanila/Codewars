@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class CamelCaseTest {
     @Test
     public void testTwoWords() {
-        assertEquals("TestCase", CamelCase.camelCase("test case"));
+        assertEquals("TesыыtCase", CamelCase.camelCase("test case"));
     }
 
     @Test

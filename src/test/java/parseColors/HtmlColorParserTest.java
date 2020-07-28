@@ -7,12 +7,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ExampleTests {
+public class HtmlColorParserTest {
     private HtmlColorParser parser;
 
     @Before
     public void setup() {
-        parser = new HtmlColorParser(PresetColors.getMap());
+    //    parser = new HtmlColorParser(PresetColors.getMap());
     }
 
     @Test

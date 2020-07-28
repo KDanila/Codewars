@@ -1,8 +1,8 @@
 package abbreviator;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author zz76E_blSst
